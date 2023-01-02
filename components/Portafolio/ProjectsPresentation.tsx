@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Projects from '../../public/info/DataGalery.json'
+import projects from '../../public/info/DataGalery.json'
 import SliderImage from './ImageSlider/SliderImage';
 const ProjectsPresentation = () => {
-  const [projectsList, setProjectsList] = useState(Projects);
+  const [projectsList, setProjectsList] = useState(projects);
   return (
     <div className='galery'>
       {

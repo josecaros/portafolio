@@ -1,1 +1,1 @@
-export const pathImage="/banners/";
+export const pathImage="/portafolio/banners/";

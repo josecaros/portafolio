@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { pathImage } from '../../../types/Canvas/Constantes'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
 
@@ -19,6 +19,7 @@ const SliderImage = ({ item, index }: ImageProps) => {
     <div className='galery-item'
       onMouseLeave={() => { setImageToShow(pathImage + item.galery[0]) }}
       onMouseEnter={() => { item.galery[1] ? setImageToShow(pathImage + item.galery[1]) : null }}
+
       onClick={() => { setShowExtraInfo((last) => !last) }}>
       <CSSTransition
         nodeRef={itemRef}
@@ -32,7 +33,7 @@ const SliderImage = ({ item, index }: ImageProps) => {
             {
               item.tecnologies.map((tec: any, index: any) => {
                 return (
-                  <img className={`icon-content${index}`} src={tec.icon} key={item.id} />
+                  <img className={`icon-content${index}`} src={tec.icon} />
                 )
               })
             }
@@ -53,7 +54,7 @@ const SliderImage = ({ item, index }: ImageProps) => {
           <CSSTransition classNames="fade"
             key={imageToShow}
             addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}>
-            <Image src={imageToShow} fill style={{ objectFit: 'contain' }} alt={"Project image description"} />
+            <img src={imageToShow} className="img-proyecto" alt={"Project image description"} />
           </CSSTransition>
         </SwitchTransition>
       </div>
