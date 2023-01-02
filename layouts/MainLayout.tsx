@@ -11,7 +11,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       <div className='leftPanel'>
         <div className='content'>
           <div className='image'>
-            <img src='/images/perfil/perfil.jpg' className='perfilImage' />
+            <img src='/portafolio/images/perfil/perfil.jpg' className='perfilImage' />
           </div>
           <div className="information">
             <p>Jose Carlos Chañi Laura</p>
