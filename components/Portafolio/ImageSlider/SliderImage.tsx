@@ -32,7 +32,7 @@ const SliderImage = ({ item, index }: ImageProps) => {
             {
               item.tecnologies.map((tec: any, index: any) => {
                 return (
-                  <img className={`icon-content${index}`} src={tec.icon} />
+                  <img className={`icon-content${index}`} src={tec.icon} key={item.id} />
                 )
               })
             }

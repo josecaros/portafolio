@@ -11,7 +11,7 @@ const TitlePresentation = () => {
         </h1>
         <h1 className='title-wraper'>
           <span className='resaltLetter'>I</span>
-          <span className='resaltLetter'>'</span>
+          <span className='resaltLetter'>&lsquo;</span>
           <span className='resaltLetter'>m</span>
           &nbsp;
           <span className='resaltLetter'>J</span>

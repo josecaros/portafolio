@@ -29,16 +29,16 @@ const SkillsDisplay = () => {
           {
             front.map((item, index) => {
               return (
-                <ItemSkill obj={item} />
+                <ItemSkill obj={item} key={item.id} />
               )
             })
           }
         </div>
         <div className='skill-container' hidden={!(tabIndex === 1)}>
           {
-            back.map((item, inde) => {
+            back.map((item, index) => {
               return (
-                <ItemSkill obj={item} />
+                <ItemSkill obj={item} key={item.id} />
               )
             })
           }
@@ -48,7 +48,7 @@ const SkillsDisplay = () => {
           {
             extra.map((item, inde) => {
               return (
-                <ItemSkill obj={item} />
+                <ItemSkill obj={item} key={item.id} />
               )
             })
           }

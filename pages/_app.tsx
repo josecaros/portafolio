@@ -6,6 +6,7 @@ import '../styles/PortafolioSection/PresentationStyles.css'
 import '../styles/General/Layout/MainLayout.css'
 import '../styles/CanvasSphere/CanvasSphere.css'
 import '../styles/CanvasSphere/Skills.css'
+import '../styles/errors/styles.css'
 import type { AppProps } from 'next/app'
 import { ThemeConfig } from '../config/theme.config'
 

@@ -15,11 +15,11 @@ const Presentation = ({ title, description }: PropsPresentation) => {
       <div className=''>
         <h1 className='title-subsection'>
           {
-            titleArray.map((char) => {
-              if(char===" "){
+            titleArray.map((char, index) => {
+              if (char === " ") {
                 return <>&nbsp;</>
-              }else{
-                return <span className='resaltLetter'>{char}</span>
+              } else {
+                return <span key={index} className='resaltLetter'>{char}</span>
               }
             })
           }

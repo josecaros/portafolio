@@ -11,7 +11,7 @@ const ProjectsPresentation = () => {
       {
         projectsList.map((project, order) => {
           return (
-            <SliderImage item={project} index={order} />
+            <SliderImage item={project} index={order} key={order} />
           )
         })
       }
