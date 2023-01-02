@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "React.js",
+    "icon": "/icons/tecnologies/ReactJs.png"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "icon": "/icons/tecnologies/TypeScript.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Next.js",
+    "icon": "/icons/tecnologies/Nextjs.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "NextAuth.js",
+    "icon": "/icons/tecnologies/NextAuth.png"
+  },
+  {
+    "id": 5,
+    "name": "Tailwind CSS",
+    "icon": "/icons/tecnologies/TailwindCSS.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Material UI",
+    "icon": "/icons/tecnologies/MaterialUI.png"
+  },
+  {
+    "id": 7,
+    "name": "Leaflet",
+    "icon": "/icons/tecnologies/LeafletJS.jpg"
+  },
+  {
+    "id":8,
+    "name":"Oauth2",
+    "icon":"/icons/tecnologies/oauth.jpg"
+  },
+  {
+    "id":9,
+    "name":"Azure - Active Directory",
+    "icon":"/icons/tecnologies/ActiveDirectory.jpg"
+  }
+]
