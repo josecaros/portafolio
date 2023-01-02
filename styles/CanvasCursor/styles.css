@@ -13,3 +13,24 @@
   left: 0;
   top: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+}
+
+.canvas-cursor-main {
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
