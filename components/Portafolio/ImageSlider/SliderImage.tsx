@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { pathImage } from '../../../types/Canvas/Constantes'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
 
