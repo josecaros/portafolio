@@ -1,0 +1,112 @@
+.main-content {
+  display: flex;
+}
+
+.leftPanel {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 30vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 720px) {
+  .leftPanel {
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .leftPanel {
+    width: 10vw;
+  }
+}
+
+.rightPanel {
+  width: 80vw;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.perfilImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+.information {
+  margin: 5px;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-family: font-file-82132;
+}
+
+.information p {
+  text-align: center;
+}
+
+.buttons-navegation {
+  font-family: font-file-82132;
+}
+
+.buttonNav {
+  text-align: center;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.buttonNav a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonNav a:hover {
+  color: #e8a709;
+}
+
+.buttonNav:hover {
+  color: #e8a709;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.social-icon {
+  color: white;
+}
+
+.social-icon:hover {
+  color: #e8a709;
+  transform: translate(0px, -5px);
+  transition: .5s;
+}
+
+.social-floating {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 2rem;
+  right: 10px;
+  bottom: 0px;
+
+}
+
+.line-separator {
+  justify-content: center;
+  margin: auto;
+  height: 4rem;
+  width: 4px;
+  background-color: white;
+
+}

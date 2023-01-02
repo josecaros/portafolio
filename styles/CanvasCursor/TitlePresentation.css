@@ -1,0 +1,232 @@
+:root {
+  --main-title-text: 3.4rem;
+  /* Titulo Principal */
+  --sliding-text: 50px;
+  /* Tamaño de letra de los sliding text */
+  --secundary-text: 2rem;
+  /* Tamaño de corchetes del sliding text*/
+  --lineheigh-main: 3rem;
+  /* Separador de letras del titulo principal */
+  --text-decorator: 1.3rem;
+  /* Tamaño etiquetas decoradoras del titulo principal */
+}
+
+@media only screen and (min-width: 720px) {
+  :root {
+    --main-title-text: 5.4rem;
+    /* Titulo Principal */
+    --sliding-text: 60px;
+    /* Tamaño de letra de los sliding text */
+    --secundary-text: 2rem;
+    /* Tamaño de corchetes del sliding text*/
+    --lineheigh-main: 1.9rem;
+    /* Separador de letras del titulo principal */
+    --text-decorator: 1rem;
+    /* Tamaño etiquetas decoradoras del titulo principal */
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  :root {
+    --main-title-text: 6.4rem;
+    /* Titulo Principal */
+    --sliding-text: 60px;
+    /* Tamaño de letra de los sliding text */
+    --secundary-text: 3rem;
+    /* Tamaño de corchetes del sliding text*/
+    --lineheigh-main: 2.3rem;
+    /* Separador de letras del titulo principal */
+    --text-decorator: 1.3rem;
+    /* Tamaño etiquetas decoradoras del titulo principal */
+    --sliding-width: 450px;
+  }
+}
+
+/* General */
+.title-ubication {
+  position: relative;
+  z-index: 1;
+  margin-left: 5vw;
+  margin-top: 15vh;
+  display: inline-block
+}
+
+/* Titulo Principal */
+.title-wraper {
+  font-size: var(--main-title-text);
+  font-family: font-file-82132;
+  position: relative;
+  margin: 0;
+  color: #fff;
+}
+
+.presentation-group {
+  position: relative;
+}
+
+.presentation-group::before {
+  content: '<h1>';
+  font-family: Bakery;
+  color: #515152;
+  font-size: var(--animation-decorator-text);
+  position: absolute;
+  top: -10px;
+}
+
+.presentation-group::after {
+  content: '<h1/>';
+  font-family: Bakery;
+  color: #515152;
+  font-size: var(--animation-decorator-text);
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+}
+
+.resaltLetter {
+  text-shadow: 4px 4px 3px #e8a709;
+  display: inline-block;
+  z-index: 2;
+}
+
+.resaltLetter:hover {
+  animation: jumped 2s infinite;
+}
+
+
+/* Sliding Text */
+.text-container {
+  overflow: hidden;
+  height: var(--sliding-text);
+}
+
+.animated-text {
+  color: white;
+  width: var(--sliding-width);
+  display: flex;
+  position: relative;
+  height: var(--sliding-text);
+  font-family: Bakery;
+}
+
+.animated-text::before {
+  content: '<animation>';
+  font-family: Bakery;
+  color: #515152;
+  font-size: var(--text-decorator);
+  position: absolute;
+  left: -1rem;
+  top: 10px;
+  font-weight: 200;
+}
+
+.animated-text::after {
+  content: '<animation/>';
+  font-family: Bakery;
+  color: #515152;
+  font-size: var(--text-decorator);
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  font-weight: 200;
+}
+
+.wrapers {
+  color: rgb(1, 192, 250);
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: calc(var(--sliding-text) - 5px);
+  animation: flickerAnimation 1.5s infinite;
+}
+
+.line {
+  text-align: center;
+  font-size: calc(var(--sliding-text) - 0.8rem);
+}
+
+.line:first-child {
+  animation: anim 8s infinite;
+}
+
+/* Descripción */
+.sub-description {
+  font-family: font-file-82132;
+  font-size: var(--secundary-text);
+  margin-top: 20px;
+  color: #565657;
+}
+
+@keyframes jumped {
+  0% {
+    transform: scale3d(1, 1, 1)
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1)
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1)
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1)
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1)
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1)
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1)
+  }
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+
+  16% {
+    margin-top: calc(var(--sliding-text)*(-1) - 15px);
+  }
+
+  33% {
+    margin-top: calc(var(--sliding-text)*(-2) - 25px);
+  }
+
+  50% {
+    margin-top: calc(var(--sliding-text)*(-3) - 45px);
+  }
+
+  66% {
+    margin-top: calc(var(--sliding-text)*(-2) - 25px);
+  }
+
+  82% {
+    margin-top: calc(var(--sliding-text)*(-1) - 15px);
+  }
+
+  100% {
+    margin-top: 0;
+  }
+
+}

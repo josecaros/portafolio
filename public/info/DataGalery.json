@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Manual Interactivo - Salares Norte",
+    "description": "Sistema de control de documentos, que permite la gestion y organización de documentos y archivos multimedia, presenta tambien interfaces interactivas orientadas a e-learning.",
+    "tecnologies": [
+      {
+        "id": 3,
+        "name": "Next.js",
+        "icon": "/icons/tecnologies/Nextjs.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "TypeScript",
+        "icon": "/icons/tecnologies/TypeScript.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "icon": "/icons/tecnologies/TailwindCSS.jpg"
+      },
+      {
+        "id": 4,
+        "name": "NextAuth.js",
+        "icon": "/icons/tecnologies/NextAuth.png"
+      }
+    ],
+    "galery": [
+      "Salares2.jpg",
+      "Salares.png"
+    ]
+  },
+  {
+    "title": "Manual Interactivo - Mantos Verde",
+    "description": "Manual de operaciones, presenta una galeria de documentos y archivos multimedia",
+    "tecnologies": [
+      {
+        "id": 3,
+        "name": "Next.js",
+        "icon": "/icons/tecnologies/Nextjs.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "icon": "/icons/tecnologies/TailwindCSS.jpg"
+      },
+      {
+        "id": 4,
+        "name": "NextAuth.js",
+        "icon": "/icons/tecnologies/NextAuth.png"
+      },
+      {
+        "id": 2,
+        "name": "TypeScript",
+        "icon": "/icons/tecnologies/TypeScript.jpg"
+      }
+    ],
+    "galery": [
+      "MV1.jpg",
+      "MV2.jpg"
+    ]
+  },
+  {
+    "title": "Sistema de Control - Topico y Farmacia",
+    "description": "Sistema de control de inventario orientado a productos farmaceuticos. Ademas de un control de consultas y reportes periodicos de gastos, consultas y servicios.",
+    "tecnologies": [
+      {
+        "id": 3,
+        "name": "Next.js",
+        "icon": "/icons/tecnologies/Nextjs.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "icon": "/icons/tecnologies/TailwindCSS.jpg"
+      },
+      {
+        "id": 4,
+        "name": "NextAuth.js",
+        "icon": "/icons/tecnologies/NextAuth.png"
+      },
+      {
+        "id": 6,
+        "name": "Material UI",
+        "icon": "/icons/tecnologies/MaterialUI.png"
+      }
+    ],
+    "galery": [
+      "TOPICO.jpg"
+    ]
+  },
+  {
+    "title": "Gestor de Contenido - Proyecto MLP INCO",
+    "description": "Sistema de gestión documental. Permite la gestión de documentos, archivos multimedia e interactivos.",
+    "tecnologies": [
+      {
+        "id": 3,
+        "name": "Next.js",
+        "icon": "/icons/tecnologies/Nextjs.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "icon": "/icons/tecnologies/TailwindCSS.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Leaflet",
+        "icon": "/icons/tecnologies/LeafletJS.jpg"
+      },
+      {
+        "id": 4,
+        "name": "NextAuth.js",
+        "icon": "/icons/tecnologies/NextAuth.png"
+      }
+    ],
+    "galery": [
+      "INCO2.jpg",
+      "INCO.jpg"
+    ]
+  },
+  {
+    "title": "Manual Interactivo - Teck",
+    "description": "Sistema de gestión documental y gestor de evaluaciónes con acceso mediante Oauth2 para miembros de la organización.",
+    "tecnologies": [
+      {
+        "id": 3,
+        "name": "Next.js",
+        "icon": "/icons/tecnologies/Nextjs.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "NextAuth.js",
+        "icon": "/icons/tecnologies/NextAuth.png"
+      },
+      {
+        "id": 8,
+        "name": "Oauth2",
+        "icon": "/icons/tecnologies/oauth.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Azure - Active Directory",
+        "icon": "/icons/tecnologies/ActiveDirectory.jpg"
+      }
+    ],
+    "galery": [
+      "Teck.jpg",
+      "teck2.jpg",
+      "teck3.jpg",
+      "teck4.jpg"
+    ]
+  }
+]
