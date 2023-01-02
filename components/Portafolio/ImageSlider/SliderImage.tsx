@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 import { pathImage } from '../../../types/Canvas/Constantes'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
@@ -33,7 +32,7 @@ const SliderImage = ({ item, index }: ImageProps) => {
             {
               item.tecnologies.map((tec: any, index: any) => {
                 return (
-                  <img className={`icon-content${index}`} src={"/portafolio"+tec.icon} />
+                  <img className={`icon-content${index}`} src={"/portafolio" + tec.icon} key={index} />
                 )
               })
             }
